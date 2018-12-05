@@ -1,0 +1,30 @@
+.DS_Store
+node_modules
+/dist
+
+/tests/e2e/reports/
+/docs/HtmlStub.html
+selenium-debug.log
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+# Editor directories and files
+.idea
+# do not ignore .vscode we need it to share workspace config and more
+#.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+dump.rdb
+/build
+dist.tar.gz
+*.pyc
